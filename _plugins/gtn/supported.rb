@@ -17,7 +17,7 @@ module Gtn
       if data.nil?
         {
           "exact" => [],
-          "inexact" => [],
+          "inexact" => [{"name" => "UseGalaxy.eu", "url" => "https://usegalaxy.eu", "usegalaxy" => true}],
         }
       end
 
